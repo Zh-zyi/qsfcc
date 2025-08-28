@@ -1,0 +1,12 @@
+# CMake build directories
+cmake-build-*/
+build/
+Plan.md
+
+*.o
+*.exe
+*.dll
+*.so
+
+.idea/
+.vscode/

@@ -1,0 +1,168 @@
+This data package been produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696, 1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at https://www.neonscience.org/data-policy.
+
+DATA PRODUCT INFORMATION
+------------------------
+
+ID: NEON.DOM.SITE.DP1.00004.001
+
+Name: Barometric pressure
+
+Description: Barometric pressure is available as one- and thirty-minute averages for station pressure, which is determined from 0.1 Hz observations. Barometric pressure corrected to sea level and surface level (defined as water surface at aquatic sites and soil surface at terrestrial sites) is derived from station pressure averages and available at one- and thirty-minute increments. Observations are made by a single digital barometer located on the tower infrastructure and a single digital barometer located on the aquatic meteorological station.
+
+NEON Science Team Supplier: Terrestrial Instrument System
+
+Abstract: Barometric pressure, or static atmospheric pressure, is a vital measurement for NEON. Barometric pressure is significant in influencing weather conditions as well as aqueous chemistry (e.g. the amount of gas that can dissolve in solution). Recording static atmospheric pressure will allow atmospheric gas mixing ratios to be converted into mass quantities. Barometric pressure will be recorded over NEON’s entire operational range.
+
+Latency:
+Data collected in any given month are published during the second full week of the following month.
+
+Brief Design Description: Barometric pressure will be recorded at a rate of 0.1 Hz for L0 DPs, and these L0 DPs will be used to calculate the L1 DPs, one- and thirty-minute averages of station and sea level pressure, as well as one- minute averages of soil plot pressure.
+
+Brief Study Area Description: At terrestrial sites the pressure sensor will be located on the tower infrastructure at a site specific installation height (h) above ground level (AGL). At aquatic sites the pressure sensor will be located on a field-based met station (tripod) at a standard installation height of above ground level. Lake sites will have an additional pressure sensor located on a buoy at a standard installation height above water level (AWL), but at a different sampling frequency and that data will be handled in a separate ATBD. Therefore, barometric (station) pressure will represent the point in space at which the barometer is located.
+
+Sensor(s): Vaisala - BAROCAP Digital Barometer PTB330
+
+Keywords: tower, aquatic, meteorological station, barometric pressure, atmospheric pressure, metabolism
+
+QUERY INFORMATION
+-----------------
+
+Date-Time for Data Publication: 2020-07-01 07:31 (UTC)
+Start Date-Time for Queried Data: 2020-02-01 00:00 (UTC)
+End Date-Time for Queried Data: 2020-03-01 00:00 (UTC)
+
+Site: BLDE
+Geographic coordinates (lat/long datum): 44.950110 -110.587150 WGS 84
+Domain: D12
+
+DATA PACKAGE CONTENTS
+---------------------
+
+This folder contains the following documentation files:
+
+- This readme file: NEON.D12.BLDE.DP1.00004.001.readme.20210123T023002Z.txt
+- Term descriptions, data types, and units: NEON.D12.BLDE.DP1.00004.001.variables.20200701T073158Z.csv
+- Machine-readable metadata file describing the data package: NEON.D12.BLDE.DP1.00004.001.EML.20200201-20200301.20210123T023002Z.xml. This file uses the Ecological Metadata Language schema. Learn more about this specification and tools to parse it at https://www.neonscience.org/faq.
+- Sensor position information: NEON.D12.BLDE.DP1.00004.001.sensor_positions.20200701T073158Z.csv
+- Other related documents, such as engineering specifications, field protocols and data processing documentation, are available. Please visit https://data.neonscience.org/data-products/DP1.00004.001 for more information.
+
+This folder also contains 2 data files:
+NEON.D12.BLDE.DP1.00004.001.200.000.030.BP_30min.2020-02.basic.20200701T073158Z.csv - Barometric Pressure averaged over 30 minutes
+NEON.D12.BLDE.DP1.00004.001.200.000.001.BP_1min.2020-02.basic.20200701T073158Z.csv - Barometric Pressure averaged over 1 minute
+
+Basic download package definition: Includes the data product, summary statistics, expanded uncertainty, and final quality flag.
+
+Expanded download package definition: Includes the basic package information plus quality metrics for all of the quality assessment and quality control analyses.
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description of the naming conventions.
+
+ISSUE LOG
+---------
+
+This log provides a list of issues that were identified during data collection or processing, prior to publication of this data package. For a more recent log, please visit this data product's detail page at https://data.neonscience.org/data-products/DP1.00004.001.
+
+Issue Date: 2020-06-17
+Issue: Station Pressure and Pressure Corrected to Sea Level possibly derived with invalid calibration coefficient
+       Date Range: 2017-08-01 to 2018-08-31
+       Location(s) Affected: RMNP
+Resolution Date: 2020-06-17
+Resolution: 
+
+Issue Date: 2020-06-17
+Issue: Station Pressure and Pressure Corrected to Sea Level reported as zero
+       Date Range: 2015-03-01 to 2016-04-30
+       Location(s) Affected: CPER
+       Date Range: 2015-10-01 to 2016-10-31
+       Location(s) Affected: UNDE
+Resolution Date: 2020-06-17
+Resolution: 2020-06-17 Data manually flagged
+
+Issue Date: 2019-09-09
+Issue: Incorrect calibration coefficients applied.
+       Date Range: 2017-03-29 to 2017-12-31
+       Location(s) Affected: JERC
+       Date Range: 2017-04-01 to 2017-12-31
+       Location(s) Affected: BLAN
+       Date Range: 2017-05-01 to 2017-12-31
+       Location(s) Affected: MOAB
+       Date Range: 2017-05-31 to 2017-12-31
+       Location(s) Affected: DELA
+       Date Range: 2017-06-14 to 2017-12-31
+       Location(s) Affected: ORNL
+       Date Range: 2017-08-01 to 2017-12-31
+       Location(s) Affected: STEI
+       Date Range: 2017-08-01 to 2018-01-01
+       Location(s) Affected: KONZ
+       Date Range: 2017-09-22 to 2017-12-31
+       Location(s) Affected: ABBY
+       Date Range: 2017-12-09 to 2017-12-31
+       Location(s) Affected: TALL
+       Date Range: 2017-12-19 to 2017-12-31
+       Location(s) Affected: OSBS
+       Date Range: 2018-01-01 to 2018-08-09
+       Location(s) Affected: RMNP
+Resolution Date: 2020-06-10
+Resolution: 2019-09-09: Affected data were manually flagged.
+
+Issue Date: 2020-03-26
+Issue: The alpha and beta quality metric multipliers used for computing the final quality flag were swapped in processing. The final quality flag is raised when alphaQM*m + betaQM*n >= 20%. The multiplier m should be set to 2 and n should be set to 1, but these values were swapped, making it slightly harder to raise the final quality flag. These multipliers were corrected in data produced after the resolution date. Data prior to the resolution date will be reprocessed prior to the first NEON data release. An additional changelog comment will be entered at that time.
+       Date Range: 2020-01-08 to 2020-01-08
+       Location(s) Affected: All
+Resolution Date: 2020-06-10
+Resolution: 2020-01-08: Processing code updated.
+
+Issue Date: 2020-06-10
+Issue: All data were reprocessed with the most recent algorithms, quality control thresholds, and/or other metadata to improve overall data coverage and quality. Notes have been added to the logs of previously identified issues that have been corrected.
+       Date Range: 2013-01-01 to 2020-06-10
+       Location(s) Affected: All
+Resolution Date: 2020-06-10
+Resolution: 
+
+Issue Date: 2020-05-27
+Issue: Faulty sensor
+       Date Range: 2018-08-10 to 2019-01-30
+       Location(s) Affected: PRLA (HOR.VER: 200.000)
+Resolution Date: 2020-05-27
+Resolution: Sensor fixed
+
+Issue Date: 2019-08-16
+Issue: The hard min threshold ranges for Barometric Pressure were set higher than normal at some sites with higher elevations causing the data to be over-flagged.
+       Date Range: 2018-01-01 to 2018-03-31
+       Location(s) Affected: NIWO
+       Date Range: 2018-01-01 to 2019-08-09
+       Location(s) Affected: COMO,WLOU
+       Date Range: 2018-09-24 to 2019-08-09
+       Location(s) Affected: BLDE
+       Date Range: 2018-10-20 to 2019-08-09
+       Location(s) Affected: TECR
+       Date Range: 2019-05-01 to 2019-08-09
+       Location(s) Affected: PUUM
+       Date Range: 2019-05-17 to 2019-05-29
+       Location(s) Affected: REDB
+Resolution Date: 2019-08-16
+Resolution: Updated thresholds and reprocessed data.
+
+Issue Date: 2019-02-19
+Issue: Incorrect calibration information was applied to data.
+       Date Range: 2018-01-01 to 2018-10-31
+       Location(s) Affected: All locations.
+Resolution Date: 2019-02-19
+Resolution: Data reprocessed with correct calibration information.
+
+ADDITIONAL INFORMATION
+----------------------
+
+NEON DATA POLICY AND CITATION GUIDELINES
+----------------------------------------
+
+A citation statement is available in this data product's detail page at https://data.neonscience.org/data-products/DP1.00004.001. Please visit https://www.neonscience.org/data-policy for more information about NEON's data policy and citation guidelines.
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit https://www.neonscience.org/data-revisions-releases.

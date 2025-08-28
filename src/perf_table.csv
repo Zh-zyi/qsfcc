@@ -1,0 +1,14 @@
+Method,DataSet,D,MaxDiff,CompressionTime(AvgPerBlock),DecompressionTime(AvgPerBlock),CompressionRatio
+Snappy,T-Drive-data.csv,2,0.00000000,97.2097,29.7528,1.31528,1.32098,1.30962
+qsfcc,T-Drive-data.csv,2,0.00010000,14495.3,0,6.02396,inf,inf
+qsfcc,T-Drive-data.csv,2,0.00100000,8955.78,0,8.51515,inf,inf
+SZ2,T-Drive-data.csv,2,0.00100000,386.577,107.307,10.1645,9.68545,10.6935
+SZ2,T-Drive-data.csv,2,0.00010000,724.169,219.116,3.96982,3.71954,4.25622
+SimPiece,T-Drive-data.csv,2,0.00100000,7534.49,291.187,6.62123,6.29541,6.98263
+Machete,T-Drive-data.csv,2,0.00100000,508.61,33.4457,16.5066,15.8136,17.2631
+qsfcc,T-Drive-data.csv,2,0.01000000,8024.35,0,15.0799,inf,inf
+Machete,T-Drive-data.csv,2,0.00010000,742.67,38.4007,9.24571,8.98672,9.52007
+SZ2,T-Drive-data.csv,2,0.01000000,175.019,58.3596,22.8435,21.6,24.2388
+SimPiece,T-Drive-data.csv,2,0.01000000,2499.84,155.828,21.5986,19.4837,24.2284
+SimPiece,T-Drive-data.csv,2,0.00010000,9374.01,312.955,4.10193,4.04408,4.16146
+Machete,T-Drive-data.csv,2,0.01000000,465.352,29.3109,32.5709,31.4192,33.8103

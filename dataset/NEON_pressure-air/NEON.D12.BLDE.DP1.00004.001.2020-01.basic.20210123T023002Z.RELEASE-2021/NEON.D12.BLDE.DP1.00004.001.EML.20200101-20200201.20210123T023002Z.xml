@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" packageId="" scope="system" system="https://neonscience.org">
+    <access authSystem="https://neonscience.org/authentication" order="allowFirst">
+        <allow>
+                        
+            <principal>public</principal>
+                        
+            <permission>read</permission>
+                    
+        </allow>
+    </access>
+    <dataset id="NEON.D12.BLDE.DP1.00004.001.20200101-20200201">
+        <shortName>NEON BLDE Barometric pressure 2020-01-01 to 2020-02-01</shortName>
+        <title>NEON Barometric pressure at BLDE, Domain 12, 2020-01-01 to 2020-02-01</title>
+        <creator id="neon_contact">
+                        
+            <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                        
+            <address>
+                                
+                <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                
+                <city>Boulder</city>
+                                
+                <administrativeArea>CO</administrativeArea>
+                                
+                <postalCode>80301</postalCode>
+                                
+                <country>USA</country>
+                            
+            </address>
+                        
+            <phone phonetype="voice">720-746-4844</phone>
+                        
+            <electronicMailAddress/>
+                        
+            <onlineUrl>http://www.neonscience.org</onlineUrl>
+                    
+        </creator>
+        <metadataProvider>
+                        
+            <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                        
+            <address>
+                                
+                <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                
+                <city>Boulder</city>
+                                
+                <administrativeArea>CO</administrativeArea>
+                                
+                <postalCode>80301</postalCode>
+                                
+                <country>USA</country>
+                            
+            </address>
+                        
+            <phone phonetype="voice">720-746-4844</phone>
+                        
+            <electronicMailAddress/>
+                        
+            <onlineUrl>http://www.neonscience.org</onlineUrl>
+                    
+        </metadataProvider>
+        <pubDate>2020-07-01</pubDate>
+        <language>English</language>
+        <intellectualRights>
+            	
+            
+            <para>NEON Data Usage and Citation Policy</para>
+            <para>Copyright © 2020-2021 National Ecological Observatory Network</para>
+            <para>All data collected by NEON and provided as data products, with the exception of data related to rare, threatened, or endangered (RTE) species, are released to the “public domain” under Creative Commons CC0 1.0 “No Rights Reserved” (https://creativecommons.org/publicdomain/zero/1.0/). No copyright has been applied to NEON data; any person may copy, modify, or distribute the data, for commercial or non-commercial purposes, without asking for permission. NEON data may still be subject to other laws or rights such as for privacy, and NEON makes no warranties about the data and disclaims all liability.  When using or citing NEON data, no implication should be made about endorsement by NEON.</para>
+            <para>In most countries, data and facts are not copyrightable. By putting NEON data into the public domain, we encourage broad use, particularly in scientific analyses and data aggregations. However, please be mindful of the following scholarly norms:</para>
+            <para>* NEON data should be used in a way that is mindful of the limitations of the data, using the documentation associated with the data packages as a guide.</para>
+            <para>* Unlike most scientific data, NEON data is not associated with individual authors; rather, the ‘author’ of data produced by the Observatory is NEON itself. Attributions and citations should be made to NEON for any use of the data. More information about NEON's Citation Guidelines may be found at https://www.neonscience.org/data-samples/data-policies-citation.</para>
+
+
+        </intellectualRights>
+        <distribution>
+                        
+            <online>
+                                
+                <url function="information">http://data.neonscience.org/</url>
+                            
+            </online>
+                    
+        </distribution>
+        <coverage>
+                        
+            <geographicCoverage id="BLDE">
+                                
+                <geographicDescription>BLDE, D12</geographicDescription>
+                                
+                <boundingCoordinates>
+                                        
+                    <westBoundingCoordinate>-110.587150</westBoundingCoordinate>
+                                        
+                    <eastBoundingCoordinate>-110.587150</eastBoundingCoordinate>
+                                        
+                    <northBoundingCoordinate>44.950110</northBoundingCoordinate>
+                                        
+                    <southBoundingCoordinate>44.950110</southBoundingCoordinate>
+                                        
+                    <boundingAltitudes>
+                                                
+                        <altitudeMinimum>2053</altitudeMinimum>
+                                                
+                        <altitudeMaximum>2053</altitudeMaximum>
+                                                
+                        <altitudeUnits>meter</altitudeUnits>
+                                            
+                    </boundingAltitudes>
+                                    
+                </boundingCoordinates>
+                            
+            </geographicCoverage>
+                        
+            <temporalCoverage>
+                                
+                <rangeOfDates>
+                                        
+                    <beginDate>
+                                                
+                        <calendarDate>2020-01-01</calendarDate>
+                                            
+                    </beginDate>
+                                        
+                    <endDate>
+                                                
+                        <calendarDate>2020-02-01</calendarDate>
+                                            
+                    </endDate>
+                                    
+                </rangeOfDates>
+                            
+            </temporalCoverage>
+                    
+        </coverage>
+        <purpose>Barometric pressure is available as one- and thirty-minute averages for station pressure, which is determined from 0.1 Hz observations. Barometric pressure corrected to sea level and surface level (defined as water surface at aquatic sites and soil surface at terrestrial sites) is derived from station pressure averages and available at one- and thirty-minute increments. Observations are made by a single digital barometer located on the tower infrastructure and a single digital barometer located on the aquatic meteorological station.</purpose>
+        <maintenance>
+                        
+            <description>
+                                
+                
+                <para>These data are available via the NEON Data Portal
+                    (http://data.neonscience.org).</para>
+                            
+            </description>
+                        
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+                    
+        </maintenance>
+        <contact>
+                        
+            <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                        
+            <address>
+                                
+                <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                
+                <city>Boulder</city>
+                                
+                <administrativeArea>CO</administrativeArea>
+                                
+                <postalCode>80301</postalCode>
+                                
+                <country>USA</country>
+                            
+            </address>
+                        
+            <phone phonetype="voice">720-746-4844</phone>
+                        
+            <electronicMailAddress/>
+                        
+            <onlineUrl>http://www.neonscience.org</onlineUrl>
+                    
+        </contact>
+        <publisher>
+                        
+            <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                        
+            <address>
+                                
+                <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                
+                <city>Boulder</city>
+                                
+                <administrativeArea>CO</administrativeArea>
+                                
+                <postalCode>80301</postalCode>
+                                
+                <country>USA</country>
+                            
+            </address>
+                        
+            <phone phonetype="voice">720-746-4844</phone>
+                        
+            <electronicMailAddress/>
+                        
+            <onlineUrl>http://www.neonscience.org</onlineUrl>
+                    
+        </publisher>
+        <project>
+                        
+            <title>National Ecological Research Network (NEON)</title>
+                        
+            <personnel>
+                                
+                <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                                
+                <address>
+                                        
+                    <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                        
+                    <city>Boulder</city>
+                                        
+                    <administrativeArea>CO</administrativeArea>
+                                        
+                    <postalCode>80301</postalCode>
+                                        
+                    <country>USA</country>
+                                    
+                </address>
+                                
+                <phone phonetype="voice">720-746-4844</phone>
+                                
+                <onlineUrl>http://www.neonscience.org</onlineUrl>
+                                
+                <role>originator</role>
+                            
+            </personnel>
+                        
+            <abstract>
+                                
+                
+                <para>The National Ecological Observatory Network is a project sponsored by the
+                    National Science Foundation.</para>
+                                
+                
+                <para>NEON's mission is to design, implement, and operate continental-scale research
+                    infrastructure to open new horizons in ecological science and education, and to
+                    enable ecological analyses and forecasts for the benefit of society.</para>
+                            
+            </abstract>
+                        
+            <funding>
+                <para>NEON is funded by several National Science Foundation (NSF) awards</para></funding>       
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1724433</awardNumber>
+                    <title>National Ecological Observatory Network: Operations Activities</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1724433</awardUrl>
+                </award>     
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1638696</awardNumber>
+                    <title>National Ecological Observatory Network: Operations Activities</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1638696</awardUrl>
+                </award>              
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1638695</awardNumber>
+                    <title>National Ecological Observatory Network: Construction and Transition</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1638695</awardUrl>
+                </award>            
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1246537</awardNumber>
+                    <title>NEON Initial Operations</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1246537</awardUrl>
+                </award>            
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1138160</awardNumber>
+                    <title>Construction and Operations of the National Ecological Observatory</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1138160</awardUrl>
+                </award>
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>1029808</awardNumber>
+                    <title>Cooperative Support Agreement for Major Research Equipment and Facilities Construction (MREFC) of the National Ecological Observatory</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1029808</awardUrl>
+                </award>
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>0752017</awardNumber>
+                    <title>Organizational and Project Management Support to complete the NEON Construction Ready Design and Project Execution Plan.</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=0752017</awardUrl>
+                </award>
+                <award>
+                    <funderName>National Science Foundation</funderName>
+                    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+                    <awardNumber>0653461</awardNumber>
+                    <title>Initial NEON Procurements for Science and Organizational Development</title>
+                    <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=0653461</awardUrl>
+                </award>
+                        
+            <studyAreaDescription>
+                                
+                <citation id="neon_2011_sciencedesign">
+                                        
+                    <title>"2011 Science Strategy: Enabling Continental-Scale Ecological
+                        Forecasting"</title>
+                                        
+                    <creator>
+                                                
+                        <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                                                
+                        <address>
+                                                        
+                            <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                                        
+                            <city>Boulder</city>
+                                                        
+                            <administrativeArea>CO</administrativeArea>
+                                                        
+                            <postalCode>80301</postalCode>
+                                                        
+                            <country>USA</country>
+                                                    
+                        </address>
+                                                
+                        <phone phonetype="voice">720-746-4844</phone>
+                                                
+                        <electronicMailAddress/>
+                                                
+                        <onlineUrl>http://www.neonscience.org</onlineUrl>
+                                            
+                    </creator>
+                                        
+                    <pubDate>2011</pubDate>
+                                        
+                    <language>english</language>
+                                        
+                    <intellectualRights>Copyright 2011 NEON, Inc. ALL RIGHTS
+                        RESERVED</intellectualRights>
+                                        
+                    <distribution>
+                                                
+                        <online>
+                                                        
+                            <url>http://www.neonscience.org/sites/default/files/basic-page-files/NEON_Strategy_2011u2_0.pdf</url>
+                                                    
+                        </online>
+                                            
+                    </distribution>
+                                        
+                    <report>
+                                                
+                        <publisher>
+                                                        
+                            <organizationName>National Ecological Observatory Network (NEON)</organizationName>
+                                                        
+                            <address>
+                                                                
+                                <deliveryPoint>1685 38th Street, Suite 100</deliveryPoint>
+                                                                
+                                <city>Boulder</city>
+                                                                
+                                <administrativeArea>CO</administrativeArea>
+                                                                
+                                <postalCode>80301</postalCode>
+                                                                
+                                <country>USA</country>
+                                                            
+                            </address>
+                                                        
+                            <phone phonetype="voice">720-746-4844</phone>
+                                                        
+                            <electronicMailAddress/>
+                                                        
+                            <onlineUrl>http://www.neonscience.org</onlineUrl>
+                                                    
+                        </publisher>
+                                                
+                        <totalPages>56</totalPages>
+                                            
+                    </report>
+                                    
+                </citation>
+                            
+            </studyAreaDescription>
+                        
+            <designDescription>
+                                
+                <citation>
+                                        
+                    <references>neon_2011_sciencedesign</references>
+                                    
+                </citation>
+                            
+            </designDescription>
+                    
+        </project>
+        <dataTable>
+                        
+            <entityName>NEON.D12.BLDE.DP1.00004.001.200.000.001.BP_1min.2020-01.basic.20200701T045541Z</entityName>
+                        
+            <attributeList>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresFinalQF</attributeName>
+                                        
+                    <attributeDefinition>Station pressure quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <nominal>
+                                                        
+                            <nonNumericDomain>
+                                                                
+                                <textDomain>
+                                                                        
+                                    <definition>Station pressure quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)</definition>
+                                                                    
+                                </textDomain>
+                                                            
+                            </nonNumericDomain>
+                                                    
+                        </nominal>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPres</attributeName>
+                                        
+                    <attributeDefinition>Mean station pressure corrected to sea level</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPresExpUncert</attributeName>
+                                        
+                    <attributeDefinition>Expanded uncertainty for pressure corrected to sea level</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPresFinalQF</attributeName>
+                                        
+                    <attributeDefinition>Pressure corrected to sea level quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.000653 and NEON.DOC.001113 (1=fail, 0=pass)</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <nominal>
+                                                        
+                            <nonNumericDomain>
+                                                                
+                                <textDomain>
+                                                                        
+                                    <definition>Pressure corrected to sea level quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.000653 and NEON.DOC.001113 (1=fail, 0=pass)</definition>
+                                                                    
+                                </textDomain>
+                                                            
+                            </nonNumericDomain>
+                                                    
+                        </nominal>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>startDateTime</attributeName>
+                                        
+                    <attributeDefinition>Date and time at which a sampling is initiated</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <dateTime>
+                                                        
+                            <formatString>yyyy-MM-dd'T'HH:mm:ss'Z'(floor)</formatString>
+                                                    
+                        </dateTime>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>endDateTime</attributeName>
+                                        
+                    <attributeDefinition>Date and time at which a sampling is completed</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <dateTime>
+                                                        
+                            <formatString>yyyy-MM-dd'T'HH:mm:ss'Z'(floor)</formatString>
+                                                    
+                        </dateTime>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMean</attributeName>
+                                        
+                    <attributeDefinition>Arithmetic mean of station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMinimum</attributeName>
+                                        
+                    <attributeDefinition>Minimum station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMaximum</attributeName>
+                                        
+                    <attributeDefinition>Maximum station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresVariance</attributeName>
+                                        
+                    <attributeDefinition>Variance in station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascalsSquared</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresNumPts</attributeName>
+                                        
+                    <attributeDefinition>Number of points used to calculate the arithmetic mean of station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>number</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresExpUncert</attributeName>
+                                        
+                    <attributeDefinition>Expanded uncertainty for station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresStdErMean</attributeName>
+                                        
+                    <attributeDefinition>Standard error of the mean for station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                            
+            </attributeList>
+                        
+            <caseSensitive>yes</caseSensitive>
+                        
+            <numberOfRecords>44640</numberOfRecords>
+                    
+        </dataTable>
+        <dataTable>
+                        
+            <entityName>NEON.D12.BLDE.DP1.00004.001.200.000.030.BP_30min.2020-01.basic.20200701T045541Z</entityName>
+                        
+            <attributeList>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresFinalQF</attributeName>
+                                        
+                    <attributeDefinition>Station pressure quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <nominal>
+                                                        
+                            <nonNumericDomain>
+                                                                
+                                <textDomain>
+                                                                        
+                                    <definition>Station pressure quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.001113 (1=fail, 0=pass)</definition>
+                                                                    
+                                </textDomain>
+                                                            
+                            </nonNumericDomain>
+                                                    
+                        </nominal>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPres</attributeName>
+                                        
+                    <attributeDefinition>Mean station pressure corrected to sea level</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPresExpUncert</attributeName>
+                                        
+                    <attributeDefinition>Expanded uncertainty for pressure corrected to sea level</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>corPresFinalQF</attributeName>
+                                        
+                    <attributeDefinition>Pressure corrected to sea level quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.000653 and NEON.DOC.001113 (1=fail, 0=pass)</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <nominal>
+                                                        
+                            <nonNumericDomain>
+                                                                
+                                <textDomain>
+                                                                        
+                                    <definition>Pressure corrected to sea level quality flag indicating whether a data product has passed or failed an overall assessment of its quality, detailed in NEON.DOC.000653 and NEON.DOC.001113 (1=fail, 0=pass)</definition>
+                                                                    
+                                </textDomain>
+                                                            
+                            </nonNumericDomain>
+                                                    
+                        </nominal>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>startDateTime</attributeName>
+                                        
+                    <attributeDefinition>Date and time at which a sampling is initiated</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <dateTime>
+                                                        
+                            <formatString>yyyy-MM-dd'T'HH:mm:ss'Z'(floor)</formatString>
+                                                    
+                        </dateTime>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>endDateTime</attributeName>
+                                        
+                    <attributeDefinition>Date and time at which a sampling is completed</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <dateTime>
+                                                        
+                            <formatString>yyyy-MM-dd'T'HH:mm:ss'Z'(floor)</formatString>
+                                                    
+                        </dateTime>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMean</attributeName>
+                                        
+                    <attributeDefinition>Arithmetic mean of station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMinimum</attributeName>
+                                        
+                    <attributeDefinition>Minimum station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresMaximum</attributeName>
+                                        
+                    <attributeDefinition>Maximum station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresVariance</attributeName>
+                                        
+                    <attributeDefinition>Variance in station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascalsSquared</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresNumPts</attributeName>
+                                        
+                    <attributeDefinition>Number of points used to calculate the arithmetic mean of station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>number</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresExpUncert</attributeName>
+                                        
+                    <attributeDefinition>Expanded uncertainty for station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                                
+                <attribute>
+                                        
+                    <attributeName>staPresStdErMean</attributeName>
+                                        
+                    <attributeDefinition>Standard error of the mean for station pressure</attributeDefinition>
+                                        
+                    <measurementScale>
+                                                
+                        <ratio>
+                                                        
+                            <unit>
+                                                                
+                                <customUnit>kilopascal</customUnit>
+                                                            
+                            </unit>
+                                                        
+                            <precision>1.0E-5</precision>
+                                                        
+                            <numericDomain>
+                                                                
+                                <numberType>real</numberType>
+                                                            
+                            </numericDomain>
+                                                    
+                        </ratio>
+                                            
+                    </measurementScale>
+                                    
+                </attribute>
+                            
+            </attributeList>
+                        
+            <caseSensitive>yes</caseSensitive>
+                        
+            <numberOfRecords>1488</numberOfRecords>
+                    
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            
+            <unitList>
+                    
+                <unitType id="amount" name="amount">
+                            
+                    <dimension name="amount"/>
+                        
+                </unitType>
+                    
+                <unitType id="angle" name="angle">
+                            
+                    <dimension name="angle"/>
+                        
+                </unitType>
+                    
+                <unitType id="current" name="current">
+                            
+                    <dimension name="current"/>
+                        
+                </unitType>
+                    
+                <unitType id="dimensionless" name="dimensionless">
+                            
+                    <dimension name="dimensionless"/>
+                        
+                </unitType>
+                    
+                <unitType id="length" name="length">
+                            
+                    <dimension name="length"/>
+                        
+                </unitType>
+                    
+                <unitType id="luminosity" name="luminosity">
+                            
+                    <dimension name="luminosity"/>
+                        
+                </unitType>
+                    
+                <unitType id="mass" name="mass">
+                            
+                    <dimension name="mass"/>
+                        
+                </unitType>
+                    
+                <unitType id="temperature" name="temperature">
+                            
+                    <dimension name="temperature"/>
+                        
+                </unitType>
+                    
+                <unitType id="time" name="time">
+                            
+                    <dimension name="time"/>
+                        
+                </unitType>
+                    
+                <unitType id="acceleration" name="acceleration">
+                            
+                    <dimension name="length" power="1"/>
+                            
+                    <dimension name="time" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="amountOfSubstanceConcentration" name="amountOfSubstanceConcentration">
+                            
+                    <dimension name="amount" power="1"/>
+                            
+                    <dimension name="length" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="amountOfSubstanceWeight" name="amountOfSubstanceWeight">
+                            
+                    <dimension name="amount" power="1"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="amountOfSubstanceWeightFlux" name="amountOfSubstanceWeightFlux">
+                            
+                    <dimension name="amount" power="1"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="amountPerAmount" name="amountPerAmount">
+                            
+                    <dimension name="amount" power="1"/>
+                            
+                    <dimension name="amount" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="area" name="area">
+                            
+                    <dimension name="length" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="arealAmountDensityRate" name="arealAmountDensityRate">
+                            
+                    <dimension name="amount" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="arealDensity" name="arealDensity">
+                            
+                    <dimension name="dimensionless" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="arealMassDensity" name="arealMassDensity">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="arealMassDensityRate" name="arealMassDensityRate">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="capacitance" name="capacitance">
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                            
+                    <dimension name="time" power="4"/>
+                            
+                    <dimension name="current" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="catalyticActivity" name="catalyticActivity">
+                            
+                    <dimension name="time" power="-1"/>
+                            
+                    <dimension name="amount" power="1"/>
+                        
+                </unitType>
+                    
+                <unitType id="charge" name="charge">
+                            
+                    <dimension name="current" power="1"/>
+                            
+                    <dimension name="time" power="1"/>
+                        
+                </unitType>
+                    
+                <unitType id="conductance" name="conductance">
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                            
+                    <dimension name="time" power="3"/>
+                            
+                    <dimension name="current" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="conductivity" name="conductivity">
+                            
+                    <dimension name="current" power="2"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="length" power="-3"/>
+                            
+                    <dimension name="time" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="currentDensity" name="currentDensity">
+                            
+                    <dimension name="current" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="doseEquivalent" name="doseEquivalent">
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="length" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="energy" name="energy">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="force" name="force">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="1"/>
+                            
+                    <dimension name="time" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="frequency" name="frequency">
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="illuminance" name="illuminance">
+                            
+                    <dimension name="luminosity" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="inductance" name="inductance">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="current" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="intensity" name="intensity">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="lengthReciprocal" name="lengthReciprocal">
+                            
+                    <dimension name="length" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="luminance" name="luminance">
+                            
+                    <dimension name="luminosity" power="1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="luminousFlux" name="luminousFlux">
+                            
+                    <dimension name="luminosity" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="magneticFieldStrength" name="magneticFieldStrength">
+                            
+                    <dimension name="current" power="1"/>
+                            
+                    <dimension name="length" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="magneticFlux" name="magneticFlux">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="current" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="magneticFluxDensity" name="magneticFluxDensity">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="current" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="massDensity" name="massDensity">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="massFlux" name="massFlux">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="massPerMass" name="massPerMass">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="massSpecificCount" name="massSpecificCount">
+                            
+                    <dimension name="dimensionless" power="1"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="massSpecificLength" name="massSpecificLength">
+                            
+                    <dimension name="length" power="1"/>
+                            
+                    <dimension name="mass" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="potentialDifference" name="potentialDifference">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-3"/>
+                            
+                    <dimension name="current" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="power" name="power">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="pressure" name="pressure">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="length" power="1"/>
+                        
+                </unitType>
+                    
+                <unitType id="radionucleotideActivity" name="radionucleotideActivity">
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="resistance" name="resistance">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-3"/>
+                            
+                    <dimension name="current" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="resistivity" name="resistivity">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="3"/>
+                            
+                    <dimension name="time" power="-3"/>
+                            
+                    <dimension name="current" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="specificArea" name="specificArea">
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="specificEnergy" name="specificEnergy">
+                            
+                    <dimension name="time" power="-2"/>
+                            
+                    <dimension name="length" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="specificVolume" name="specificVolume">
+                            
+                    <dimension name="mass" power="-1"/>
+                            
+                    <dimension name="length" power="3"/>
+                        
+                </unitType>
+                    
+                <unitType id="speed" name="speed">
+                            
+                    <dimension name="length" power="1"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="transmissivity" name="transmissivity">
+                            
+                    <dimension name="length" power="2"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="variance" name="variance">
+                            
+                    <dimension name="amount" power="2"/>
+                        
+                </unitType>
+                    
+                <unitType id="volume" name="volume">
+                            
+                    <dimension name="length" power="3"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumePerVolume" name="volumePerVolume">
+                            
+                    <dimension name="length" power="3"/>
+                            
+                    <dimension name="length" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumetricArea" name="volumetricArea">
+                            
+                    <dimension name="length" power="3"/>
+                            
+                    <dimension name="length" power="-2"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumetricDensity" name="volumetricDensity">
+                            
+                    <dimension name="dimensionless" power="1"/>
+                            
+                    <dimension name="length" power="-3"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumetricMass" name="volumetricMass">
+                            
+                    <dimension name="length" power="3"/>
+                            
+                    <dimension name="mass" power="1"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumetricMassDensityRate" name="volumetricMassDensityRate">
+                            
+                    <dimension name="mass" power="1"/>
+                            
+                    <dimension name="length" power="-3"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unitType id="volumetricRate" name="volumetricRate">
+                            
+                    <dimension name="length" power="3"/>
+                            
+                    <dimension name="time" power="-1"/>
+                        
+                </unitType>
+                    
+                <unit abbreviation="number" id="number" name="number" unitType="amount"/>
+                    
+                <unit abbreviation="kPa" id="kilopascal" multiplierToSI="1000" name="kilopascal" parentSI="pascal" unitType="pressure"/>
+                    
+                <unit abbreviation="kPa^2" id="kilopascalsSquared" name="kilopascalsSquared" parentSI="pascal" unitType="pressure"/>
+                
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
