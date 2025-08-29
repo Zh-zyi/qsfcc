@@ -1,6 +1,8 @@
 # CMake build directories
 cmake-build-*/
 build/
+dataset/
+result/
 Plan.md
 
 *.o
