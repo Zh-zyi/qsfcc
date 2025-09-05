@@ -6,6 +6,12 @@
 #include <array>
 #include <cmath>
 
+#define SUCCESS 1
+#define DIMENSION_ERROR -100
+#define QUANTIZED_ERROR -200
+#define SFC_ERROR -300
+#define LOSSLESS_COMPRESS_ERROR -400
+
 template <size_t D>
 using mdPoint = std::array<double, D>;
 
@@ -30,8 +36,8 @@ struct FileHeader {
 };
 
 struct BlockMetaData {
-    uint64_t offset;    // 对应的块数据相对于数据区的起始偏移量
-
+    uint8_t bits;
+    uint64_t compressed_size;
 };
 
 #endif //DEFS_H

@@ -28,7 +28,7 @@ inline std::vector<char> lossless_compress_zstd(const std::vector<int64_t> &data
     size_t compressed_size = ZSTD_compress(
         compressed_data.data(), max_dst_size,
         src, src_size,
-        10
+        6
     );
 
     if (ZSTD_isError(compressed_size)) {
@@ -64,6 +64,17 @@ public:
           q_params_(std::move(q_params)),
           sfc_type_(sfc_type) {
     }
+
+    bool quantize_data(const std::vector<std::vector<double> > &input,
+                          std::vector<std::pair<uint32_t, uint32_t> > &points,
+                          uint32_t &max_coord);
+
+    bool sfc_encode(std::vector<std::pair<uint32_t, uint32_t> > &quantized_points,
+                       uint32_t max_coord,
+                       std::vector<uint64_t> &out_sfc_sequence);
+
+    ssize_t lossless_compress(const std::vector<uint64_t> &sfc_sequence,
+                              const std::string &output_filepath);
 
     ssize_t qsfcc_compress(const std::vector<std::vector<double> > &input, const std::string &output_filepath_data);
 
